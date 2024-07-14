@@ -1,16 +1,15 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import chrisPhoto from '../images/valencia-sea.jpeg';
 
+const pageTitle = "Chris Smith";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Hello World</title>
-	</head>
-	<body>
-		<h1>Hello World</h1>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+    <h2>Chris Smith is a climate scientist at the University of Leeds.</h2>
+    <p>
+		The rest of this site is coming soon. For now you might want to 
+		<a href="https://homepages.see.leeds.ac.uk/~mencsm/">head here</a>.
+	</p>
+    <Image src={chrisPhoto} alt="Chris Smith, Valencia, 4 December 2023" />
+</BaseLayout>
