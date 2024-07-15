@@ -44,6 +44,10 @@ a:active{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* publications */
 ol.pubs{
     list-style-type: none;
