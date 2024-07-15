@@ -6,8 +6,8 @@ html {
   
 body {
     margin: 0 auto;
-    width: 100%;
-    max-width: 80ch;
+    /* width: 100%; */
+    /* max-width: 80ch; */
     padding: 1rem;
     line-height: 1.5;
 }
@@ -42,11 +42,6 @@ a:hover{
 a:active{
     color: #9999FF;
     text-decoration: none;
-}
-
-img{
-    max-width: 100%;
-    display: block;
 }
 
 /* publications */
