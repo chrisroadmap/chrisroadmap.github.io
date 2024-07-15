@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.11.5"
+    "@iconify-json/academicons": "^1.1.14",
+    "@iconify-json/mdi": "^1.1.67",
+    "astro": "^4.11.5",
+    "astro-icon": "^1.1.0"
   }
 }
