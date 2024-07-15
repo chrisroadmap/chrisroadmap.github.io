@@ -18,7 +18,6 @@ body {
   
 h1 {
     margin: 1rem 0;
-    font-size: 2.5rem;
     color: #000
 }
 
@@ -43,6 +42,28 @@ a:hover{
 a:active{
     color: #9999FF;
     text-decoration: none;
+}
+
+/* publications */
+ol.pubs{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+}
+
+ol.pubs > li{
+    counter-increment: customlistcounter;
+    margin-bottom:10px;
+    text-align:justify;
+    padding-left: 44px;
+}
+
+ol.pubs > li:before{
+    /* font-weight:bold; */
+    content: "[" counter(customlistcounter) "] ";
+    float:left;
+    width:0px;
+    text-indent: -44px;
 }
 
 /* nav styles */
