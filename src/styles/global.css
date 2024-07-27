@@ -67,7 +67,7 @@ ol.pubs > li{
 }
 
 ol.pubs > li:before{
-    /* font-weight:bold; */
+    font-weight:bold;
     content: "[" counter(customlistcounter) "] ";
     float:left;
     width:0px;
