@@ -1,8 +1,9 @@
 html {
-    background-color: #ddd;
-    font-family: sans-serif;
+    background-color: #181818;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
     font-size: 1rem;
-    color:#003366;
+    color:#cdcdcd;
 }
   
 body {
@@ -19,36 +20,39 @@ body {
   
 h1 {
     margin: 1rem 0;
-    color: #000;
+    color: #238E61;
     font-size: 1.75rem;
+    font-weight: 300;
 }
 
 h2 {
-    color: #000;
+    color: #238E61;
     font-size: 1.375rem;
+    font-weight: 300;
 }
 
 h3 {
-    color: #000;
+    color: #238E61;
     font-size: 1.125rem;
+    font-weight: 300;
 }
    
 a {
-    color: #CC6600;
+    color: #0096D7;
     text-decoration: none;
 }
    
 a:visited {
-    color: #993300;
+    color: #0096D7;
 }
    
 a:hover {
-    color: #3333CC;
+    color: #D0A536;
     text-decoration: underline;
 }
    
 a:active {
-    color: #9999FF;
+    color: #D0A536;
     text-decoration: none;
 }
 
@@ -67,7 +71,7 @@ ol.pubs > li{
 }
 
 ol.pubs > li:before{
-    font-weight:bold;
+    /* font-weight:bold; */
     content: "[" counter(customlistcounter) "] ";
     float:left;
     width:0px;
@@ -85,7 +89,7 @@ ol.pubs > li:before{
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #594b29;
+    background-color: #238E61;
 }
   
 .nav-links {
@@ -103,15 +107,15 @@ ol.pubs > li:before{
     padding: 10px 0;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: bold;
-    background-color: #006;
-    color: #FFF;
+    /* font-weight: bold; */
+    background-color: #10412C;
+    color: #cdcdcd;
 }
   
 .nav-links a:hover,
 .nav-links a:focus {
-    background-color:#000033;
-    text-decoration:underline;
+    background-color:#181818;
+    text-decoration:none;
     color:#ffffff;
 }
   
@@ -136,13 +140,4 @@ ol.pubs > li:before{
     .hamburger {
         display: none;
     }
-}
-
-html.dark {
-    background-color: #0d0950;
-    color: #fff;
-}
-  
-.dark .nav-links a {
-    color: #fff;
 }
