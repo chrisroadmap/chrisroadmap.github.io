@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/fira-sans-extra-condensed": "^5.0.13",
+    "@fontsource/merriweather": "^5.0.13",
     "@iconify-json/academicons": "^1.1.14",
     "@iconify-json/mdi": "^1.1.67",
     "astro": "^4.11.5",
