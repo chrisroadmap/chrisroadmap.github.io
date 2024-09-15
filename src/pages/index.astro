@@ -1,15 +1,20 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
-import chrisPhoto from '../images/egu-2024.jpg';
+import chrisPhoto from '../images/zuerich-2024.jpg';
 
-const pageTitle = "Chris Smith";
+const pageTitle = "About Me";
 ---
 <BaseLayout pageTitle={pageTitle}>
-    <h2>free spirit & loose cannon</h2>
+    <p>I am a climate scientist at the University of Leeds, UK, and International Institute for Applied Systems Analysis, Austria.</p>
     <p>
-		take a look around. more coming soon.
+        In November 2024 I will be starting a new position at <a href="https://www.vub.be/en">Vrije Universiteit Brussel</a>, Belgium.
+    </p>
+    <p>
+		I am the lead maintainer of the <a href="/fair">fair model</a> and co-chair of the <a href="https://rfmip.leeds.ac.uk">radiative forcing
+        model intercomparison project</a> for CMIP7.
 	</p>
+    <p>I have a strong commitment to open science, and most of my code and software can be found on <a href="https://github.com/chrisroadmap">GitHub</a>.</p>
     <Image
         src={chrisPhoto} 
         alt="Chris Smith, EGU, 2024" 

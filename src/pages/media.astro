@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from 'astro:assets';
+const pageTitle = "Media";
+import newsnight from '../images/newsnight-2022.jpeg';
+import skynews from '../images/skynews-2018.jpeg'
+---
+<BaseLayout pageTitle={pageTitle}>
+    <h3>Interviews</h3>
+    <p>Interview with Nation TV (Kenya) at the UNFCCC SBSTA conference, June 2024</p>
+    <iframe width="492" height="300" src="https://www.youtube.com/embed/lKO17WgyiPc?si=qDR_qSaV72_3ccOe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+
+    <p>Interview with British Embassy in Vienna and visit to Geosphere Austria, April 2024</p>
+    <iframe width="492" height="300" src="https://www.youtube.com/embed/if9FR4VURqI?si=SrUSujJtcjHiKFc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+
+    <p>Interview for the Natural Environment Research Council Societal Impact Award prize, December 2023</p>
+    <iframe width="492" height="300" src="https://www.youtube.com/embed/m3_YP0yx7G8?si=8rPLU8bHYBpITtUj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+
+    <p>BBC Newsnight television interview on consequences of climate change for intensity of heatwaves in the UK, August 2022</p>
+    <Image
+        src={newsnight} 
+        alt="Chris Smith, BBC TV interview, 2022" 
+        format="JPEG"
+        style="height: 100%; width: 100%; max-width: 492px; object-fit: cover;"
+    />
+    <p>&nbsp;</p>
+    <!-- planet parasol -->
+
+    <p>Sky News interview on the publication of the IPCC Special Report on Global Warming of 1.5°C in 2018</p>
+    <Image
+        src={skynews} 
+        alt="Chris Smith, Sky News TV interview, 2018" 
+        format="JPEG"
+        style="height: 100%; width: 100%; max-width: 492px; object-fit: cover;"
+    />
+    <p>&nbsp;</p>
+
+    <h3>Radio and podcast interviews</h3>
+    <ul>
+        <li>
+            11/04/2024: FM4, Austria: on the likelihood of exceeding 1.5°C and the consequences of climate change (NB 
+            FM4 is the coolest station in Europe)
+        </li>
+        <li>
+            21/07/2023: BBC Radio 4 World At One: on the impacts for humanity and biodiversity if current global temperatures continue to rise
+        </li>
+        <li>
+            03/10/2022: <a href="https://www.bbc.co.uk/sounds/play/w3ct3kjj">BBC World Service interview on "The Climate Question"</a> on the climate impact from the attack on the NordStream gas pipeline
+        </li>
+    </ul>
+
+    <h3>Public-facing written commentaries and blog posts</h3>
+    <ul>
+        <li>
+            <a href="https://theconversation.com/carbon-budget-for-1-5-c-will-run-out-in-six-years-at-current-emissions-levels-new-research-216459">
+            Carbon budget for 1.5°C will run out in six years at current emissions levels</a> 
+            (The Conversation, October 2023). Co-authored with Robin Lamboll and based on 
+            <a href="https://www.nature.com/articles/s41558-023-01848-5">Lamboll et al. (2023)</a>, where we revised the 
+            IPCC's estimate of the remaining carbon budget for 1.5°C downwards based on improved methodology and more recent data.
+        </li>
+        <li>
+            <a href="https://theconversation.com/climate-change-a-climate-scientist-answers-questions-from-teenagers-113530">
+            Climate change: a climate scientist answers questions from teenagers</a>
+            (The Conversation, March 2019). Following the Fridays for Futures demonstrations in Leeds, we gathered common
+            concerns from young people about climate change.
+        </li>
+        <li>
+            <a href="https://theconversation.com/immediate-phase-out-of-fossil-fuels-could-keep-warming-below-1-5-c-109672">
+            Immediate phase out of fossil fuels could keep warming below 1.5°C</a>
+            (The Conversation, January 2019). We showed that if fossil fuels began to be phased out from 2018,
+            global mean surface temperatures exceeding 1.5°C above pre-industrial levels could be avoided. Reports on the findings
+            of <a href="https://www.nature.com/articles/s41467-018-07999-w">Smith et al. (2019)</a>.
+        </li>
+    </ul>
+
+    <!-- <h3>Public lectures</h3>
+
+
+    <h3>Newspapers and similar</h3>
+    <ul>
+        <li>https://hakaimagazine.com/news/birthing-the-blob/</li>
+        <li>https://www.deutschlandfunk.de/klimakonferenz-cop26-klimawandel-glasgow-100.html</li>
+    </ul> -->
+    
+</BaseLayout>

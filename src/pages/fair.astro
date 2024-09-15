@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "fair model";
+import { Image } from 'astro:assets';
+import fair from '../images/ssp-inverse.png';
+---
+<BaseLayout pageTitle={pageTitle}>
+    <p>
+        The <b>fair</b> model is a reduced-complexity climate model designed to produce probabilistic projections of global mean
+        surface temperature (and other variables) given input emissions, greenhouse gas concentrations or radiative forcing, in
+        a fraction of a second.
+    </p>
+    <p>
+        <b>fair</b> includes simplified representations of the uptake of emitted CO<sub>2</sub>, methane atmospheric chemistry,
+        aerosols, ozone and land use change based on simplified relationships calibrated on Earth System Models.
+    </p>
+    <p>
+        <b>fair</b> is written in python and can be obtained through conda-forge, pip, or installed from source. See the
+        <a href="https://docs.fairmodel.net/en/stable/install.html">installation</a> notes in the <a href="https://docs.fairmodel.net/en/latest/">documentation</a>.
+    </p>
+    <p>You can also run a <a href="https://mybinder.org/v2/gh/OMS-NetZero/FAIR/master?filepath=examples/basic_run_example.ipynb">
+        very simple example</a> interactively using Binder.
+    </p>
+    <Image
+        src={fair} 
+        alt="Probabilistic temperature projections using fair for the SSP scenarios (coloured bands and lines), with historical observations shown in white" 
+        format="PNG"
+        style="height: 100%; width: 100%; max-width: 100%; object-fit: cover;"
+    />
+    <h3>What's in a name?</h3>
+    <p>
+        The model I call <b>fair</b> is variously spelt FAIR and FaIR. The full name of the model is the Finite Amplitude 
+        Impulse Response (model). The first iteration was all-caps FAIR. We were made aware of a name clash with 
+        <a href="https://link.springer.com/article/10.1007/s10666-005-4647-z">another model called FAIR</a> in an overlapping
+        scientific field. Therefore we changed the official acronym to FaIR and modified the full name (now "Finite-amplitude"...).
+    </p>
+    <p>
+        However. It can't only be me that thinks the small "a" looks fugly, and there's no good reason why "amplitude" is any
+        less important than any other word. Therefore, I now prefer to call the model all-lowercase <b>fair</b>.
+        Distinction from the other FAIR is maintained, and the lowercase form is how it is known within the python ecosystem.
+        Practically, all three variants are in use and acceptable, and I've even seen it spelt Fair.
+    </p>
+</BaseLayout>
