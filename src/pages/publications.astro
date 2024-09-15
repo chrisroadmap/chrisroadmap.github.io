@@ -5,15 +5,50 @@ const pageTitle = "Publications";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <ol class="pubs">
-        <h2>Reports</h2>
-            <li>
-                <a href="https://climate.leeds.ac.uk/wp-content/uploads/2024/06/Targets-for-effective-climate-mitigation-governance-in-the-UK-report-by-CEU.pdf">Targets for effective climate mitigation governance in the UK</a>. Climate Evidence Unit, Leeds, 2024.</li>
-                <li><a href="https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2022/05/What-will-climate-change-cost-the-UK-risks-impacts-mitigation.pdf">What will climate change cost the UK?</a> A study of climate risks, impacts and mitigation for the net-zero transition. London School of Economics, London, 2022.</li>
-    </ol>
-    <ol class="pubs">
-        <h2>Journal articles</h2>
-        <h3>2024</h3>
+    <h3>Intergovernmental Panel on Climate Change contributions</h3>
+        <h4>[Coordinating] Lead Author</h4>
+            <ul>
+                <li>AR6 Working Group 1 Annex III: Tables of Historical and Projected Well-mixed Greenhouse Gas Mixing Ratios and Effective Radiative Forcing of All Climate Forcers (2021)</li>
+                <li>AR6 Working Group 1 Chapter 7 Supplementary Material: The Earth's Energy Budget, Climate Feedbacks and Climate Sensitivity (2021)</li>
+            </ul>
+        <h4>Contributing Author & Chapter Scientist</h4>    
+            <ul>
+                <li>AR6 Working Group 1 Chapter 7 (2021)</li>
+                <li>Special Report on 1.5°C Chapter 2 (2018)</li>
+            </ul>
+        <h4>Contributing Author</h4>
+            <ul>
+                <li>AR6 Working Group 3 Chapter 3 (2022)</li>
+                <li>AR6 Working Group 1 Summary for Policymakers (2021)</li>
+                <li>AR6 Working Group 1 Chapter 2 (2021)</li>
+                <li>AR6 Working Group 1 Chapter 4 (2021)</li>
+                <li>AR6 Working Group 1 Chapter 6 (2021)</li>
+                <li>Special Report on 1.5°C Chapter 1 (2018)</li>
+            </ul>
+
+    <h4>Invited talks</h4>
+    <ul>
+        <li>28/06/2024: European Space Agency <a href="https://nikal.eventsair.com/truths-workshop/programme">TRUTHS mission kickoff</a>. Harwell, Oxfordshire</li>
+        <li>24/01/2024: World Climate Research Programme <a href="https://www.wcrp-climate.org/WCRP-publications/2024/TCRE-Workshop-Report-c.pdf">Transient Climate Response to
+            cumulative carbon Emissions (TCRE)
+            and Zero Emissions Commitment (ZEC)
+            Workshop</a>. Bristol</li>
+        <li>23/11/2023: Sufficiency Lab <a href="https://www.thesufficiencylab.org/events/2023-11-23-modelling-workshop/">Workshop to identify the ingredients and methodology for modelling sufficiency</a>. Sciences Po, Paris</li>
+    </ul>
+    <!-- <h3>Conference presentations</h3>
+    <ul>
+        <li>16/08/2024: Econometric Models of Climate Change (EMCC-VIII). King's College, Cambridge</li>
+    </ul> -->
+    <h3>Reports</h3>
+    <ul>
+        <li><a href="https://climate.leeds.ac.uk/wp-content/uploads/2024/06/Targets-for-effective-climate-mitigation-governance-in-the-UK-report-by-CEU.pdf">Targets for effective climate mitigation governance in the UK</a>. Climate Evidence Unit, Priestley International Centre for Climate, Leeds, 2024.</li>
+        <li><a href="https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2022/05/What-will-climate-change-cost-the-UK-risks-impacts-mitigation.pdf">What will climate change cost the UK?</a> A study of climate risks, impacts and mitigation for the net-zero transition. London School of Economics, London, 2022.</li>
+        <li><a href="https://www.constrain-eu.org/wp-content/uploads/2021/11/Constrain-Zero-In-3-final.pdf">ZERO IN ON: Near-term warming and our chances of staying within 1.5°C</a>. The CONSTRAIN Project Annual Report, Leeds, 2021.</li>
+        <li><a href="https://www.constrain-eu.org/wp-content/uploads/2020/02/CONSTRAIN-Zero-In-On-The-Remaining-Carbon-Budget-Decadal-Warming-Rates.pdf">ZERO IN ON the remaining carbon budget and decadal warming rates</a>. The CONSTRAIN Project Annual Report, Leeds, 2019.</li>
+    </ul>
+    <h3>Peer-reviewed journal articles</h3>
+    <ol class="pubs" style="counter-reset: customlistcounter {% raw %}{{ items.length + 1 }}{% endraw %}">
+        <h4>2024</h4>
     
         <li>Smith, C. and Mathison, C., 2024. How much methane removal is required to avoid overshooting 1.5&deg;C? Environmental Research Letters, 19, 074044, DOI <a href="https://doi.org/10.1088/1748-9326/ad5853">10.1088/1748-9326/ad5853</a> (open access)</li>
     
@@ -27,7 +62,7 @@ const pageTitle = "Publications";
     
         <li>Weber, J.M., King, J.A., Abraham, N.L., Grosvenor, D.P., Smith, C.J., Shin, Y.M., Lawrence, P., Roe, S., Beerling, D.J., and Val Martin, M., 2024. Chemistry-albedo feedbacks offset up to a third of forestation's CO<sub>2</sub> removal benefits, Science, 383(6685), 860-864, DOI <a href="https://doi.org/10.1126/science.adg6196">10.1126/science.adg6196</a></li>
     
-        <h3>2023</h3>
+        <h4>2023</h4>
     
         <li>Kopp, R.E., Garner, G.G., Hermans, T.H.J., Jha, S., Kumar, P., Reedy, A., Slangen, A.B.A., Turilli, M., Edwards, T.L., Gregory, J.M., Koubbe, G., Levermann, A., Merzky, A., Nowicki, S., Palmer, M.D., and Smith, C., 2023: The Framework for Assessing Changes To Sea-level (FACTS) v1.0: a platform for characterizing parametric and structural uncertainty in future global, relative, and extreme sea-level change, Geoscientific Model Development, 16, 7461–7489, DOI <a href="https://doi.org/10.5194/gmd-16-7461-2023">10.5194/gmd-16-7461-2023</a> (open access)</li>
     
@@ -59,7 +94,7 @@ const pageTitle = "Publications";
     
         <li> Jenkins, S., Smith, C., Allen, M., Grainger, D., 2023. Tonga eruption increases chance of temporary surface temperature anomaly above 1.5 °C. Nature Climate Change, 13, 127-129, DOI <a href="https://doi.org/10.1038/s41558-022-01568-2">10.1038/s41558-022-01568-2</a> | <a href="contact.htm">Contact me for full text</a></li>
     
-        <h3>2022</h3>
+        <h4>2022</h4>
     
         <li> Kikstra, J.S., Nicholls, Z.R.J., Smith, C.J., Lewis, J., Lamboll, R.D., Byers, E., Sandstad, M., Meinshausen, M., Gidden, M.J., Rogelj, J., Kriegler, E., Peters, G.P., Fuglestvedt, J.S., Skeie, R.B., Samset, B.H., Wienpahl, L., van Vuuren, D.P., van der Wijst, K.-I., Al Khourdajie, A., Forster, P.M., Reisinger, A., Schaeffer, R., Riahi, K., 2022. The IPCC Sixth Assessment Report WGIII climate assessment of mitigation pathways: from emissions to global temperatures. Geoscientific Model Development, 15, 9075-9109, DOI <a href="https://doi.org/10.5194/gmd-15-9075-2022">10.5194/gmd-15-9075-2022</a> (open access)</li>
     
@@ -91,7 +126,7 @@ const pageTitle = "Publications";
     
         <li>Lyon, C., Saupe, E.E., Smith, C.J., Hill, D.J., Beckerman, A.P., Stringer, L.C., Marchant, R., McKay, J., Burke, A., O'Higgins, P., Dunhill, A.M., Allen, B.J., Riel-Salvatore, J., and Aze, T., 2022. Climate change research and action must look beyond 2100, Global Change Biology, 28, 349-361, DOI <a href="https://doi.org/10.1111/gcb.15871">10.1111/gcb.15871</a> (open access)</li>
     
-        <h3>2021</h3>
+        <h4>2021</h4>
     
         <li>Dong, Y., Armour, K.C., Proistosescu, C., Andrews, T., Battisti, D.S., Forster, P.M., Paynter, D., Smith, C.J., and Shiogama, H., 2021. Biased Estimates of Equilibrium Climate Sensitivity and Transient Climate Response Derived From Historical CMIP6 Simulations. Geophysical Research Letters, 48, e2021GL095778, DOI <a href="https://doi.org/10.1029/2021GL095778">10.1029/2021GL095778</a></li>
     
@@ -121,7 +156,7 @@ const pageTitle = "Publications";
     
         <li>Matthews, H.D., Tokarska, K.B., Rogelj, J., Smith, C.J., MacDougall, A.H., Haustein, K., Mengis, N., Sippel, S., Forster, P.M., and Knutti, R., 2021. An integrated approach to quantifying uncertainties in the remaining carbon budget. Commun Earth Environ 2, 7, DOI <a href="https://doi.org/10.1038/s43247-020-00064-9">10.1038/s43247-020-00064-9</a> (open access)</li>
     
-        <h3>2020</h3>
+        <h4>2020</h4>
     
         <li>McKenna, C.M., Maycock, A.C., Forster, P.M., Smith, C.J., and Tokarska, K.B., 2020. Stringent mitigation substantially reduces risk of unprecedented near-term warming rates. Nature Climate Change, DOI <a href="https://doi.org/10.1038/s41558-020-00957-9">10.1038/s41558-020-00957-9</a>
     
@@ -147,7 +182,7 @@ const pageTitle = "Publications";
     
         <li>Forster, P. M., Maycock, A. C., McKenna, C. M. and Smith, C. J., 2020. Latest climate models confirm need for urgent mitigation. Nature Climate Change (commentary), <a href="https://doi.org/10.1038/s41558-019-0660-0">10.1038/s41558-019-0660-0</a></li>
     
-        <h3>2019</h3>
+        <h4>2019</h4>
     
         <li>Richardson, T. B., Forster, P. M., Smith, C. J., Maycock, A. C., Wood, T., Andrews, T., Boucher, O., Faluvegi, G., Fläschner, D., Hodnebrog, Ø., Kasoar, M., Kirkevåg, A., Lamarque, J.-F., Mülmenstädt, J., Myhre, G., Olivié, D., Portmann, R. W., Samset, B. H., Shawki, D., Shindell,  D., Stier, P., Takemura, T., Voulgarakis, A., and Watson-Parris, D. 2019. Efficacy of climate forcings in PDRMIP models. Journal of Geophysical Research: Atmospheres, 124, DOI <a href="https://doi.org/10.1029/2019JD030581">10.1029/2019JD030581</a> (open access)</li>
     
@@ -165,7 +200,7 @@ const pageTitle = "Publications";
     
         <li>Smith, C.J., Forster, P.M., Allen, M., Fuglestvedt, J., Millar, R.J., Rogelj, J., Zickfeld, K., 2019. Current fossil fuel infrastructure does not yet limit us to 1.5&deg;C warming. Nature Communications, 10, DOI <a href="https://doi.org/10.1038/s41467-018-07999-w">10.1038/s41467-018-07999-w</a> (open access)</li>
     
-        <h3>2018</h3>
+        <h4>2018</h4>
     
         <li>Myhre G., Kramer R.J., Smith C.J., Hodnebrog Ø., Forster P., Soden B.J., Samset B.H., Stjern C.W., Andrews T., Boucher O., Faluvegi G., Fläschner D., Kasoar M., Kirkevåg A., Lamarque J.-F., Olivié D., Richardson T., Shindell D., Stier P., Takemura T., Voulgarakis A., Watson‐Parris D., 2018. Quantifying the Importance of Rapid Adjustments for Global Precipitation Changes. Geophysical Research Letters, 45, DOI <a href="https://doi.org/10.1029/2018GL079474">10.1029/2018GL079474</a> (open access)</li>
     
@@ -176,7 +211,7 @@ const pageTitle = "Publications";
         
         <li>Samset B.H., Sand M., Smith C.J., Bauer S.E., Forster P.M., Fuglestvedt J.S., Osprey S., Schleussner C.-F., 2018. Climate Impacts From a Removal of Anthropogenic Aerosol Emissions. Geophys. Res. Lett. DOI <a href="http://onlinelibrary.wiley.com/doi/10.1002/2017GL076079/abstract">10.1002/2017GL076079</a> (open access)</li>
     
-        <h3>2017</h3>
+        <h4>2017</h4>
     
         <li>Stjern C.W., Samset B.H., Myhre G., Forster P.M., Hodnebrog O., Andrews T., Boucher O., Faluvegi G., Iversen T., Kasoar M., Kharin V., Kirkevag A., Lamarque J.F., Olivie D., Richardson T.B., Shawki D., Shindell D., Smith C.J., Takemura T., Voulgarakis A., 2017. Rapid adjustments cause weak surface temperature response to increased black carbon concentrations. J. Geophys. Res.-Atmos. DOI <a href="http://dx.doi.org/10.1002/2017JD027326">10.1002/2017JD027326</a> (open access)</li>
     
@@ -186,7 +221,7 @@ const pageTitle = "Publications";
         
         <li>Kov&aacute;cs T., Feng W., Totterdill A., Plane J.M.C., Dhomse S., G&oacute;mez-Mart&iacute;n J.C., Stiller G.P., Haenel F.J., Smith C., Forster P.M., Garc&iacute;a R.R., Marsh D.R., Chipperfield M.P., 2017. Determination of the atmospheric lifetime and global warming potential of sulfur hexafluoride using a three-dimensional model. Atmospheric Chemistry and Physics 17, pp. 883-898. DOI: <a href="http://dx.doi.org/10.5194/acp-17-883-2017">10.5194/acp-17-883-2017</a> (open access)</li>
     
-        <h3>2016</h3>
+        <h4>2016</h4>
         
         <li>Forster, P.M., Richardson T., Maycock A.C., Smith C.J., Samset B.H., Myhre G., Andrews T., Pincus R., Schulz M., 2016. Recommendations for diagnosing effective radiative forcing from climate models for CMIP6, J. Geophys. Res. Atmos., 121, pp. 12460-12475, DOI: <a href="http://dx.doi.org/10.1002/2016JD025320">10.1002/2016JD025320</a> (open access)</li>
     
@@ -194,7 +229,7 @@ const pageTitle = "Publications";
     
         <li>Smith, C.J., Forster P.M., Crook R., 2016. An all-sky radiative transfer method to predict optimal tilt and azimuth angle of a solar collector. Solar Energy 123, pp. 88-101. DOI: <a href="http://dx.doi.org/10.1016/j.solener.2015.11.013">10.1016/j.solener.2015.11.013</a></li>
     
-        <h3>earlier</h3>
+        <h4>earlier</h4>
     
         <li>Bright, J.M., Smith C.J., Taylor P.G., Crook R., 2015. Stochastic generation of synthetic minutely irradiance time
     series derived from mean hourly weather observation data. Solar Energy 115, pp. 229-242. DOI: <a href="http://dx.doi.org/10.1016/j.solener.2015.02.032">10.1016/j.solener.2015.02.032</a></li>
