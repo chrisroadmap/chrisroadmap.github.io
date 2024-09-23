@@ -65,7 +65,7 @@ a:active {
 
 /* publications */
 ol.pubs {
-    counter-reset: customlistcounter 84;
+    counter-reset: customlistcounter 85;
     list-style-type: none;
     margin-left: 0px;
     padding-left:0px;
