@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Vrije Universiteit Brussel
+subtitle: Itinerant scientist
 
 profile:
   align: right
@@ -18,7 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist in the [bclimate](https://hydr.vub.be/research-groups/bclimate) group at Vrije Universiteit Brussel, Belgium and a 
+If you've stumbled across this page, it's not ready yet.
+
+<!-- I am a senior scientist in the [bclimate](https://hydr.vub.be/research-groups/bclimate) group at Vrije Universiteit Brussel, Belgium and a 
 visiting scientist in the [Energy, Climate and Environment Program](https://iiasa.ac.at/programs/ece) at IIASA, Austria.
 
 I am the lead maintainer of the [fair simple climate model](https://docs.fairmodel.net) and co-chair of the 
@@ -30,4 +32,4 @@ I am also interested in understanding the Earth's energy budget and radiative fo
 
 Over the years I've become involved in a broad spectrum of climate research and enjoy continuing to collaborate
 in diverse topics. I'm always looking for interesting distractions from my day job.
-Please reach out if you are interested in working together.
+Please reach out if you are interested in working together. -->
