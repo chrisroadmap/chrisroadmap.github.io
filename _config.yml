@@ -309,8 +309,8 @@ display_categories: ["general"] # these categories will be displayed on the fron
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Smith]
+  first_name: [Christopher J.]
 
   style: apa
   locale: en

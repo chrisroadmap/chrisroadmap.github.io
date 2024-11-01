@@ -29,4 +29,5 @@ improving integrated assessment models by incorporating process-based climate fe
 I am also interested in understanding the Earth's energy budget and radiative forcing.
 
 Over the years I've become involved in a broad spectrum of climate research and enjoy continuing to collaborate
-in diverse topics. Please reach out if you are interested in working together.
+in diverse topics. I'm always looking for interesting distractions from my day job.
+Please reach out if you are interested in working together.
