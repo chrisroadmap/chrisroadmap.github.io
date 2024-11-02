@@ -1,20 +1,14 @@
 ---
 layout: page
-permalink: /publications/
 title: publications
-description:
 nav: true
 nav_order: 2
+dropdown: true
+children:
+  - title: papers
+    permalink: /papers/
+  - title: reports
+    permalink: /reports/
+  - title: datasets
+    permalink: /datasets/
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
