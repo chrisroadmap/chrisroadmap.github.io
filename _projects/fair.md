@@ -2,11 +2,18 @@
 layout: page
 title: fair model
 description: The Finite Amplitude Impulse Response reduced-complexity climate model
-img: assets/img/project_thumbs/fair.png
+img: assets/img/project_thumbs/fair.jpg
 importance: 3
 category: work
 related_publications: false
 ---
+
+[![image](https://github.com/OMS-NetZero/FAIR/actions/workflows/checks.yml/badge.svg)](https://github.com/OMS-NetZero/FAIR/actions)
+[![image](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/OMS-NetZero/FAIR/master?filepath=examples/basic_run_example.ipynb)
+[![Documentation Status](https://readthedocs.org/projects/fair/badge/?version=latest)](http://fair.readthedocs.io/en/latest/?badge=latest)
+[![image](https://zenodo.org/badge/DOI/10.5281/zenodo.1340643.svg)](https://doi.org/10.5281/zenodo.1340643)
+[![image](https://codecov.io/gh/OMS-NetZero/FAIR/branch/master/graph/badge.svg)](https://codecov.io/gh/OMS-NetZero/FAIR)
+[![image](https://img.shields.io/pypi/v/fair)](https://pypi.org/project/fair/) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/fair/badges/version.svg)](https://anaconda.org/conda-forge/fair)
 
 The **fair** model is a reduced-complexity climate model designed to produce probabilistic projections of global mean
 surface temperature (and other variables) given input emissions, greenhouse gas concentrations or radiative forcing, in
@@ -31,13 +38,28 @@ You can also run a
     Projections of future global mean surface temperature from the CMIP6 SSP-RCP scenarios using fair.
 </div>
 
-## Uses of fair
+<!-- ## Uses of fair
 
-provide some cards here
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
 
 - planet parasol
 - US Social Cost of Carbon 2022
 - IPCC 2018 and 2021
+
+http://www.planetparasol.ai -->
 
 ## What's in a name?
 

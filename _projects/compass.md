@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Scenario Compass Initiative
-description: Making climate scenarios accessible and useable
-img: assets/img/project_thumbs/compass.png
+img: assets/img/project_thumbs/compass.jpg
 importance: 1
 category: work
 ---

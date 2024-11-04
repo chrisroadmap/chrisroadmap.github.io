@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: things that I'm currently or formerly paid to do. Also things that I'm not paid to do but still do.
+description: things that I'm currently or used to be paid to do. Also some things that I'm not paid to do but still do.
 nav: true
 nav_order: 3
 # display_categories: [work, fun]
