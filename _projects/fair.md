@@ -58,6 +58,7 @@ You can also run a
 - planet parasol
 - US Social Cost of Carbon 2022
 - IPCC 2018 and 2021
+- Finnish climate change panel https://ilmastopaneeli.fi/hallinta/wp-content/uploads/2024/10/ilmastopaneelin-raportti-2-2024-Suomen-paastovahennyspolun-tarkastelu-huomioiden-muiden-kuin-co2-kasvihuonekaasujen-ja-epasuorien-nieluvaikutusten-rooli.pdf
 
 http://www.planetparasol.ai -->
 
