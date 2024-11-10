@@ -38,30 +38,6 @@ You can also run a
     Projections of future global mean surface temperature from the CMIP6 SSP-RCP scenarios using fair.
 </div>
 
-<!-- ## Uses of fair
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-- planet parasol
-- US Social Cost of Carbon 2022
-- IPCC 2018 and 2021
-- Finnish climate change panel https://ilmastopaneeli.fi/hallinta/wp-content/uploads/2024/10/ilmastopaneelin-raportti-2-2024-Suomen-paastovahennyspolun-tarkastelu-huomioiden-muiden-kuin-co2-kasvihuonekaasujen-ja-epasuorien-nieluvaikutusten-rooli.pdf
-
-http://www.planetparasol.ai -->
-
 ## What's in a name?
 
 The model I call <b>fair</b> is variously spelt FAIR and FaIR. The full name of the model is the Finite Amplitude 
