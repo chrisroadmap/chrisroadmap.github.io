@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-Please [contact me](contact) for media enquiries.
+Please [contact me](../contact) for media enquiries.
 
 ## Video interviews
 
