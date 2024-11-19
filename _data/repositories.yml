@@ -6,6 +6,7 @@ repo_description_lines_max: 2
 github_repos:
   - OMS-NetZero/FAIR
   - chrisroadmap/ar6
+  - ClimateIndicator/forcing-timeseries
   - chrisroadmap/fair-calibrate
   - chrisroadmap/climateforcing
   - iiasa/climate-assessment
