@@ -4,7 +4,7 @@ permalink: /media/
 title: media
 description: a list of interviews, blog posts and other engagements around climate topics
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 Please [contact me](../contact) for media enquiries.

@@ -4,7 +4,7 @@ permalink: /contact/
 title: contact
 description: send me a message
 nav: true
-nav_order: 8
+nav_order: 9
 ---
 
 Fancy a chat? [Feel free to browse my Outlook calendar](https://outlook.office365.com/calendar/published/81009e63e9d54cbeadc90ed1d0a588be@vub.be/ca17a3550341423cad91d1d79795d2802529308089475844290/calendar.html) to find a time that I'm free.
