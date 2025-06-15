@@ -77,6 +77,7 @@ Please [contact me](../contact) for media enquiries.
 (not an exhaustive list)
 
 ## Carbon Brief
+- [Guest post: How to apportion ‘net-zero carbon debt’ if global warming overshoots 1.5C](https://www.carbonbrief.org/guest-post-how-to-apportion-net-zero-carbon-debt-if-global-warming-overshoots-1-5c/), April 2025
 - [Guest post: The Global Methane Pledge needs to go further to help limit warming to 1.5C](https://www.carbonbrief.org/guest-post-the-global-methane-pledge-needs-to-go-further-to-help-limit-warming-to-1-5c/), November 2021
 - [Guest post: The role ‘emulator’ models play in climate change projections](https://www.carbonbrief.org/guest-post-the-role-emulator-models-play-in-climate-change-projections/), September 2021
 - [Cutting air pollution would not cause ‘near-term spike’ in global warming](https://www.carbonbrief.org/cutting-air-pollution-would-not-cause-near-term-spike-in-global-warming/), September 2019
