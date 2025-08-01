@@ -67,6 +67,7 @@ Please [contact me](../contact) for media enquiries.
 - [BBC World Service interview on "The Climate Question"](https://www.bbc.co.uk/sounds/play/w3ct3kj) on the climate impact from the attack on the NordStream gas pipeline, October 2022. This was to follow up rapid analysis conducted using the [fair model](../projects/fair) in response to misconceptions that the climate impact from the released methane would be significant. [Original tweet](https://x.com/chrisroadmap/status/1575447799830904832) here
 
 ## Print and online media interviews
+- [Depășirea limitei de 1,5°C pentru încălzirea globală e inevitabilă. Trebuie să începem să ne gândim la reversibilitate](https://strigatulcarpatilor.ro/index.php/focus/interviu/depasirea-limitei-de-1-5-c-pentru-incalzirea-globala-e-inevitabila-trebuie-sa-incepem-sa-ne-gandim-la-reversibilitate-de-vorba-cu-unul-din-autorii-celui-mai-recent-studiu-cuprinzator-despre-starea-climei), Strigătul Carpaților, July 2025 [in Romanian]. I explain the near impossibility of limiting global mean warming to 1.5°C above pre-industrial temperatures, but that we still must try.
 - [Hoe groot is de impact van methaan op de klimaatopwarming?](https://www.vrt.be/vrtnws/nl/2024/11/21/factcheck-methaan/), VRT, November 2024 [in Dutch]. I comment on the warming contribution from methane and how to reconcile different estimates provided by the IPCC and WMO.
 - [How the blob was born](https://www.ethicalmarkets.com/how-the-blob-was-born/), Ethical Investor, July 2024, linking aerosol emissions reductions in China to the Pacific marine heatwave.
 - [The 1.5-degree climate goal may be ‘deader than a doornail,’ and scientists are bitterly divided over it](https://us.cnn.com/2024/01/18/climate/paris-climate-goal-threatened-intl/index.html), CNN, January 2024. I was one of the scientists pushing back against Jim Hansen's claim that global warming is accelerating rapidly. 
@@ -77,6 +78,7 @@ Please [contact me](../contact) for media enquiries.
 (not an exhaustive list)
 
 ## Carbon Brief
+- [Guest post: Investigating how volcanic eruptions can affect climate projections](https://www.carbonbrief.org/guest-post-investigating-how-volcanic-eruptions-can-affect-climate-projections/?utm_content=bufferca78a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer), May 2025
 - [Guest post: How to apportion ‘net-zero carbon debt’ if global warming overshoots 1.5C](https://www.carbonbrief.org/guest-post-how-to-apportion-net-zero-carbon-debt-if-global-warming-overshoots-1-5c/), April 2025
 - [Guest post: The Global Methane Pledge needs to go further to help limit warming to 1.5C](https://www.carbonbrief.org/guest-post-the-global-methane-pledge-needs-to-go-further-to-help-limit-warming-to-1-5c/), November 2021
 - [Guest post: The role ‘emulator’ models play in climate change projections](https://www.carbonbrief.org/guest-post-the-role-emulator-models-play-in-climate-change-projections/), September 2021
