@@ -8,10 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Building T2.51,</p>
-    <p>Pleinlaan 2,</p>
-    <p>1050 Brussels, Belgium</p>
+  more_info: T2.51 | Pleinlaan 2 | 1050 Brussels | Belgium
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
