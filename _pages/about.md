@@ -7,16 +7,15 @@ subtitle: Itinerant climate scientist
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: T2.51 | Pleinlaan 2 | 1050 Brussels | Belgium
+  image_circular: true # crops the image to make it circular
+  #more_info: Schloßplatz 1, 2361 Laxenburg, Austria
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist in the Water and Climate group at Vrije Universiteit Brussel, Belgium and
-the [Energy, Climate and Environment Program](https://iiasa.ac.at/programs/ece) at IIASA, Austria. Until very recently I was at the University of Leeds with a short spell at the UK Met Office.
+I am a senior research scholar in the [Energy, Climate and Environment Program](https://iiasa.ac.at/programs/ece) at the International Institute for Applied Systems Analysis ([IIASA](https://iiasa.ac.at)), Austria.
 
 I am the lead maintainer of the [fair simple climate model](https://docs.fairmodel.net) and co-chair of the 
 [radiative forcing model intercomparison project](https://rfmip.leeds.ac.uk) for [CMIP7](https://wcrp-cmip.org/cmip7/).
