@@ -11,6 +11,5 @@
 # generated from ../_bibliography/papers.bib by generate_pubs.py -- not
 # source, regenerate with ./build.sh
 pubs_generated.tex
-pub_count.tex
 cv.pdf
 

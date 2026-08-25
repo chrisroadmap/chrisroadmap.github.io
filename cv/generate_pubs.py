@@ -5,14 +5,17 @@
 """Generate cv/pubs_generated.tex from ../_bibliography/papers.bib.
 
 Single source of truth: the website's papers.bib. Groups entries by year
-(descending), numbers within each year (restarting at 1), formats author
-lists as "Lastname Initials" with Chris's own name bolded, and escapes
-LaTeX special characters. Run this, then `tectonic cv.tex`, whenever
-papers.bib changes.
+(descending) under a heading, but numbers them as one continuous countdown
+from the total count down to 1 across the whole list (not restarting per
+year) -- matching the count shown on the website's own /papers/ page.
+Formats author lists as "Lastname Initials" with Chris's own name bolded,
+and escapes LaTeX special characters. Run this, then `tectonic cv.tex`,
+whenever papers.bib changes.
 
 This intentionally does NOT use biblatex: the bold-own-name / hyphenated-
-initials / per-year-restart formatting this CV uses is easier to get right
-and keep readable in a small Python script than in a biblatex .bbx driver.
+initials / countdown-numbering formatting this CV uses is easier to get
+right and keep readable in a small Python script than in a biblatex .bbx
+driver.
 """
 import re
 import sys
@@ -20,12 +23,11 @@ from pathlib import Path
 
 BIB_PATH = Path(__file__).parent.parent / "_bibliography" / "papers.bib"
 OUT_PATH = Path(__file__).parent / "pubs_generated.tex"
-COUNT_PATH = Path(__file__).parent / "pub_count.tex"
 
 
 def find_entries(text):
     entries = []
-    for m in re.finditer(r"@article\{([^,]+),", text):
+    for m in re.finditer(r"@article\{([^,]+),", text, re.IGNORECASE):
         key = m.group(1).strip()
         start = m.end()
         depth = 1
@@ -173,19 +175,21 @@ def main():
         date = strip_braces(f.get("date", "")) or f"{year}-01-01"
         by_year.setdefault(year, []).append((date, f))
 
+    total = sum(len(v) for v in by_year.values())
+
     out = []
+    n = total
     for year in sorted(by_year, reverse=True):
         items = sorted(by_year[year], key=lambda t: t[0], reverse=True)
         out.append(f"\\cvsubsection{{{year}}}")
-        out.append("\\begin{enumerate}")
+        out.append("\\begin{itemize}")
         for _, f in items:
-            out.append(f"\\item {format_entry(f)}")
-        out.append("\\end{enumerate}")
+            out.append(f"\\item[{n}.] {format_entry(f)}")
+            n -= 1
+        out.append("\\end{itemize}")
         out.append("")
 
     OUT_PATH.write_text("\n".join(out), encoding="utf-8")
-    total = sum(len(v) for v in by_year.values())
-    COUNT_PATH.write_text(f"\\newcommand{{\\pubcount}}{{{total}}}\n", encoding="utf-8")
     print(f"Wrote {total} entries across {len(by_year)} years to {OUT_PATH}")
 
 
