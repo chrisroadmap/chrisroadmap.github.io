@@ -2,32 +2,25 @@
  * Themes
  ******************************************************************************/
 
-@use "sass:color";
-
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-bg-color: oklch(98% 0.012 80);
+  --global-code-bg-color: oklch(95% 0.02 60);
+  --global-text-color: oklch(22% 0.014 70);
+  --global-text-color-light: oklch(42% 0.02 65);
+  --global-theme-color: oklch(55% 0.16 45);
+  --global-hover-color: oklch(45% 0.17 45);
+  --global-hover-text-color: oklch(98% 0.012 80);
+  --global-footer-bg-color: oklch(95.5% 0.016 75);
+  --global-footer-text-color: oklch(42% 0.02 65);
+  --global-footer-link-color: oklch(22% 0.014 70);
+  --global-distill-app-color: oklch(42% 0.02 65);
+  --global-divider-color: oklch(80% 0.02 70 / 0.55);
+  --global-card-bg-color: oklch(99% 0.008 80);
+  --global-highlight-color: oklch(40% 0.14 40);
+  --global-back-to-top-bg-color: oklch(22% 0.014 70 / 0.55);
+  --global-back-to-top-text-color: oklch(98% 0.012 80);
+  --global-newsletter-bg-color: oklch(95.5% 0.016 75);
+  --global-newsletter-text-color: oklch(22% 0.014 70);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -75,28 +68,23 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-bg-color: oklch(20% 0.02 55);
+  --global-code-bg-color: oklch(26% 0.02 55);
+  --global-text-color: oklch(92% 0.015 80);
+  --global-text-color-light: oklch(70% 0.02 70);
+  --global-theme-color: oklch(72% 0.14 45);
+  --global-hover-color: oklch(80% 0.13 45);
+  --global-hover-text-color: oklch(18% 0.02 55);
+  --global-footer-bg-color: oklch(16% 0.02 55);
+  --global-footer-text-color: oklch(80% 0.02 70);
+  --global-footer-link-color: oklch(95% 0.01 80);
+  --global-distill-app-color: oklch(80% 0.02 70);
+  --global-divider-color: oklch(45% 0.02 60 / 0.4);
+  --global-card-bg-color: oklch(24% 0.02 55);
+  --global-back-to-top-bg-color: oklch(92% 0.015 80 / 0.5);
+  --global-back-to-top-text-color: oklch(18% 0.02 55);
+  --global-newsletter-bg-color: oklch(24% 0.02 55);
+  --global-newsletter-text-color: oklch(92% 0.015 80);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
