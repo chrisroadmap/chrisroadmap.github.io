@@ -1,7 +1,8 @@
-<li class="repo-list-item">
+<li class="repo-list-item" data-github-user="{{ include.username }}">
   <a href="https://github.com/{{ include.username }}">
-    <i class="fa-brands fa-github"></i>
+    <img class="gh-avatar" data-gh-avatar hidden alt="">
+    <i class="fa-brands fa-github" data-gh-fallback-icon></i>
     <span class="repo-name">{{ include.username }}</span>
-    <span class="repo-meta">GitHub profile</span>
+    <span class="repo-meta" data-gh-meta>GitHub profile</span>
   </a>
 </li>

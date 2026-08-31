@@ -546,6 +546,12 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
 
+      .gh-avatar {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+      }
+
       .repo-meta {
         margin-left: auto;
         color: var(--global-text-color-light);

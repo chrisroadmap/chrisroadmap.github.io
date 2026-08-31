@@ -31,3 +31,5 @@ nav_order: 5
   {% endfor %}
 </ul>
 {% endif %}
+
+<script src="{{ '/assets/js/github_profile.js' | relative_url | bust_file_cache }}" defer></script>
