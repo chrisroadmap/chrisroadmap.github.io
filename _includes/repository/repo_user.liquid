@@ -1,14 +1,8 @@
-<div class="repo p-2 text-center">
+<li class="repo-list-item" data-github-user="{{ include.username }}">
   <a href="https://github.com/{{ include.username }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
-    >
+    <img class="gh-avatar" data-gh-avatar hidden alt="">
+    <i class="fa-brands fa-github" data-gh-fallback-icon></i>
+    <span class="repo-name">{{ include.username }}</span>
+    <span class="repo-meta" data-gh-meta>GitHub profile</span>
   </a>
-</div>
+</li>
