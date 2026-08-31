@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Mozart-injected (symlinks to Mozart repo)
+.claude/
+CLAUDE.md
