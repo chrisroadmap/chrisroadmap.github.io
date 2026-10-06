@@ -22,7 +22,7 @@ a fraction of a second.
 **fair** includes simplified representations of the uptake of emitted CO<sub>2</sub>, methane atmospheric chemistry,
 aerosols, ozone and land use change based on simplified relationships calibrated on Earth System Models.
 
-**fair** is written in python and can be obtained through `conda-forge`, `pip`, or installed [from source](<>). See the
+**fair** is written in python and can be obtained through `conda-forge`, `pip`, or installed [from source](). See the
 [installation](https://docs.fairmodel.net/en/stable/install.html) notes in the
 [documentation](https://docs.fairmodel.net).
 
