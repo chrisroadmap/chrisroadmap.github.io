@@ -22,8 +22,8 @@ a fraction of a second.
 **fair** includes simplified representations of the uptake of emitted CO<sub>2</sub>, methane atmospheric chemistry,
 aerosols, ozone and land use change based on simplified relationships calibrated on Earth System Models.
 
- **fair** is written in python and can be obtained through `conda-forge`, `pip`, or installed [from source](). See the
-[installation](https://docs.fairmodel.net/en/stable/install.html) notes in the 
+**fair** is written in python and can be obtained through `conda-forge`, `pip`, or installed [from source](<>). See the
+[installation](https://docs.fairmodel.net/en/stable/install.html) notes in the
 [documentation](https://docs.fairmodel.net).
 
 You can also run a
@@ -40,8 +40,8 @@ You can also run a
 
 ## What's in a name?
 
-The model I call <b>fair</b> is variously spelt FAIR and FaIR. The full name of the model is the Finite Amplitude 
-Impulse Response (model). The first iteration was all-caps FAIR. We were made aware of a name clash with 
+The model I call <b>fair</b> is variously spelt FAIR and FaIR. The full name of the model is the Finite Amplitude
+Impulse Response (model). The first iteration was all-caps FAIR. We were made aware of a name clash with
 <a href="https://link.springer.com/article/10.1007/s10666-005-4647-z">another model called FAIR</a> in an overlapping
 scientific field. Therefore we changed the official acronym to FaIR and modified the full name (now "Finite-amplitude"...).
 

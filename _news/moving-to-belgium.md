@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-After 13 years at the University of Leeds, I've finally left and taken up a new position in Belgium at the Vrije Universiteit Brussel. 
+After 13 years at the University of Leeds, I've finally left and taken up a new position in Belgium at the Vrije Universiteit Brussel.
