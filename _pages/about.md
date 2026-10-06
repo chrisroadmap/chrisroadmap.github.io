@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 I am a senior research scholar in the [Energy, Climate and Environment Program](https://iiasa.ac.at/programs/ece) at the International Institute for Applied Systems Analysis ([IIASA](https://iiasa.ac.at)), Austria.
 
 I am the lead maintainer of the [fair simple climate model](https://docs.fairmodel.net) and co-chair of the
-[radiative forcing model intercomparison project](https://rfmip.leeds.ac.uk) for [CMIP7](https://wcrp-cmip.org/cmip7/).
+[radiative forcing model intercomparison project](https://rfmip.github.io) for [CMIP7](https://wcrp-cmip.org/cmip7/).
 
 I am involved in developing climate projections from socioeconomic scenarios and interested in
 improving integrated assessment models by incorporating process-based climate feedbacks to build more realistic and useful climate scenarios. [See here](projects/) for full list of my current projects.

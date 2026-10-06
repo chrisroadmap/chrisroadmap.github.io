@@ -64,7 +64,7 @@ Please [contact me](../contact) for media enquiries.
 - BBC Radio 5 Live, United Kingdom: on the climate policies of the two main political parties, June 2024
 - FM4, Austria: on the likelihood of exceeding 1.5°C and the consequences of climate change, April 2024
 - BBC Radio 4 World At One, United Kingdom: on the impacts for humanity and biodiversity if current global temperatures continue to rise, July 2023
-- [BBC World Service interview on "The Climate Question"](https://www.bbc.co.uk/sounds/play/w3ct3kj) on the climate impact from the attack on the NordStream gas pipeline, October 2022. This was to follow up rapid analysis conducted using the [fair model](../projects/fair) in response to misconceptions that the climate impact from the released methane would be significant. [Original tweet](https://x.com/chrisroadmap/status/1575447799830904832) here
+- BBC World Service interview on "The Climate Question" on the climate impact from the attack on the NordStream gas pipeline, October 2022. This was to follow up rapid analysis conducted using the [fair model](../projects/fair) in response to misconceptions that the climate impact from the released methane would be significant. [Original tweet](https://x.com/chrisroadmap/status/1575447799830904832) here
 
 ## Print and online media interviews
 
