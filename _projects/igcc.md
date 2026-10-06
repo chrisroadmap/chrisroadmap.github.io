@@ -26,5 +26,6 @@ I lead the updating of the effective radiative forcing assessment which follows 
 More information and an interactive dashboard can be found at [igcc.earth](https://igcc.earth).
 
 Peer-reviewed papers in Earth System Dynamics:
-  - indicators 2023 {% cite forster_indicators_2024 %} 
-  - indicators 2022 {% cite forster_indicators_2023 %}
+
+- indicators 2023 {% cite forster_indicators_2024 %}
+- indicators 2022 {% cite forster_indicators_2023 %}

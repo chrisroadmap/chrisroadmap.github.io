@@ -15,3 +15,6 @@ vendor
 # Mozart-injected (symlinks to Mozart repo)
 .claude/
 CLAUDE.md
+
+# Specs live in OneDrive (Projects/personal-website/specs/), never in the repo
+specs/

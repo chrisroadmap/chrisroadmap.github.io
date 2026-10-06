@@ -8,6 +8,9 @@
 <li class="repo-list-item">
   <a href="https://github.com/{{ include.repository }}">
     <i class="fa-brands fa-github"></i>
-    <span class="repo-name">{% if show_owner %}{{ repo_url[0] }}/{% endif %}{{ repo_url[1] }}</span>
+    <span class="repo-name">
+      {%- if show_owner %}{{ repo_url[0] }}/{% endif -%}
+      {{- repo_url[1] -}}
+    </span>
   </a>
 </li>
