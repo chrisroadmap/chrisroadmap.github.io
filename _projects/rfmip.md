@@ -15,7 +15,7 @@ The Radiative Forcing Model Intercomparison Project (RFMIP) is a [World Climate 
 
 In the last round of coordinated Earth System model experiments (CMIP6), RFMIP provided critical information on the energetic influence of different climate forcers over the historical period and their potential future effects {% cite smith_effective_2020 %}. The diversity of model responses to the same aerosol emissions (figure below) can be used to train emulators such as [fair](../fair) to infer information about the Earth's climate sensitivity {% cite smith_energy_2021 %}.
 
-RFMIP Phase 2 is now in progress, and will form a key evidence base for CMIP7 and the IPCC Seventh Assessment Report. I am co-chairing RFMIP with [Ryan Kramer](https://www.gfdl.noaa.gov/ryan-kramer-homepage/) (NOAA GFDL) and [Tim Andrews](https://www.metoffice.gov.uk/research/people/tim-andrews) (UK Met Office).
+RFMIP Phase 2 is now in progress, and will form a key evidence base for CMIP7 and the IPCC Seventh Assessment Report. I am co-chairing RFMIP with [Ryan Kramer](https://www.gfdl.noaa.gov/ryan-kramer-homepage/) (NOAA GFDL) and [Tim Andrews](https://timothyandrews.github.io) (UK Met Office).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
