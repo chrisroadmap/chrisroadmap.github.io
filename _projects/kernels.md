@@ -15,7 +15,6 @@ I have produced radiative kernels from two generations of the UK Met Office's gl
 - HadGEM3-GA7.1: [Download here](https://doi.org/10.5281/zenodo.3594672). Please cite [Smith et al. (2020)](https://essd.copernicus.org/articles/12/2157/2020/). For reasons outlined in the paper this kernel is preferable to the HadGEM2 one for use with CMIP6 model output.
 - HadGEM2: [Download here](https://doi.org/10.5518/406). Please cite [Smith et al. (2018)](https://gmd.copernicus.org/articles/17/2387/2024/).
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ta_q_kernel.png" title="HadGEM3 radiative kernels" class="img-fluid rounded z-depth-1" %}
