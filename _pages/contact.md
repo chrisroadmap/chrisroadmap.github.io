@@ -8,14 +8,14 @@ nav_order: 9
 ---
 
 <section class="contact-section">
-    
+
     <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-    
+
         <input type="hidden" name="access_key" value="9b31ba82-9fc4-46a7-b3c7-9e886e15f15e" />
         <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
         <input type="hidden" name="from_name" value="My Website" />
         <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
-    
+
         <div class="form-group-container">
         <div class="form-group">
             <label for="name" class="form-label">Name</label>
@@ -32,5 +32,5 @@ nav_order: 9
         </div>
         <button class="form-submit" type="submit">Send Message</button>
     </form>
-    
+
 </section>

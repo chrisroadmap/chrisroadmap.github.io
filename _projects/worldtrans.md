@@ -30,7 +30,7 @@ Alongside developing FRIDA, WorldTrans will engage stakeholders in group modelli
 
 I lead the Natural Sciences work package, ensuring that the climate and carbon cycle modules are faithful
 simplified representations of more complex Earth System models and are grounded in real-world observations.
-We are also developing novel climate impacts emulators for rapidly linking climate change back to the 
+We are also developing novel climate impacts emulators for rapidly linking climate change back to the
 drivers of change in the human system.
 
 More information is on the [project website](https://worldtrans-horizon.eu).
